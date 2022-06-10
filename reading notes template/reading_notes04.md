@@ -1,6 +1,6 @@
 
 
-# Reading Notes - Thursday June 9, 2022
+# Reading Notes - Friday June 10, 2022
 
 *Welcome to your fourth and LAST reading notes file of the week! Reading notes are important because they will help you reinforce what you have learned and help you master the syntax of markdown (which is what I'm writing for you here :D )! The following questions will be for you to answer from the reading and give you a chance to add any thoughts or comments on what you have learned. The more you write, the more you can interpret the concepts you learn* ;)
 
