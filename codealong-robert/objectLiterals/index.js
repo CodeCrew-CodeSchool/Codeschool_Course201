@@ -1,7 +1,7 @@
 'use strict';
 // console.log('We are connected');
 
-// Learn how to write some object literals 
+                          // Learn how to write some object literals 
 // objects can contain any value type
 
 // define the object
@@ -41,16 +41,25 @@ person.sing()
 singForTheKidz(Jordan)
 
 // objects are mutable
-// how would we do that:
+// how would we access the properties in an object?:
 // dot notation 
-let newHobby = Jordan.hobbbies;
+
+
+// we can overwrite values of properties with dot notation too
+// let newHobby = Jordan.hobbbies; 
 // newHobby = "Learning"
-console.log(newHobby)
+// console.log(newHobby);
+
+// add a new property to an existing object
+Jordan.addingNewProperty = 'i was added later in your code'
 
 // 'this' is a keyword
 // when we use this keyword we are referencing the object 
+// ___________________________________________________________________________________
 
-// Lets work with the DOM
+
+ 
+                       // Lets work with the DOM
 
 // What is it???
 
@@ -94,6 +103,7 @@ li.textContent = `${Jordan.hobbbies[0]}`; // returns COD
 ul.append(li); // attachs list element to unordered list
 
 articleTag.append(ul); //attachs ul to article
+
 
 
 
