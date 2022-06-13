@@ -8,7 +8,7 @@ What is the DOM?? : The DOM or Document Object Model, is a programming interface
 
 
 Why do we use the DOM?? : 
-- You are watching TV and you need to change the channel. Its obvious you do not have telekinesis, so you need a remote, or other set of controls to change it. The Remote is a BRIDGE between the TV and the channel you want to change to. 
+- Here is an example: You are watching TV and you need to change the channel. Its obvious you do not have telekinesis, so you need a remote, or other set of controls to change it. The Remote is a BRIDGE between the TV and the channel you want to change to. 
 - Translating that back to coding terms, Javascript and HTML are great, but they do not have much power by themselves. To dynamically change your HTML you need a bridge between it and Javascript. This is where the DOM comes in.
 
 
