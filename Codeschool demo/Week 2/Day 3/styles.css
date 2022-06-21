@@ -1,0 +1,61 @@
+
+.header{
+    background-color:blueviolet;
+    color:#ffff;
+    height:100px;
+    font-size: 20px;
+    display:flex;
+    justify-content:center;
+}
+
+.header h1 {
+    padding-top:30px;
+    font-weight:bold;
+}
+
+.container{
+     /* I have a container with flexbox properties */
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+
+}
+
+
+.container-one{
+ background-color: red; 
+ color:rgb(206, 205, 205); 
+ padding:10px;
+ margin:5px; 
+}
+
+.container-two{
+background-color:blue;
+color:rgb(206, 205, 205);
+padding:10px;
+margin:5px;
+}
+
+.container-three{
+background-color:cadetblue;
+color:rgb(206, 205, 205); 
+padding:10px; 
+margin: 5px;;
+}
+
+
+
+
+
+/* h2{
+    background-color:blue;
+    height:200px;
+    width:200px;
+    
+}
+
+h3{
+    background-color:blueviolet;
+    height: 200px;
+    width:200px;
+} */
