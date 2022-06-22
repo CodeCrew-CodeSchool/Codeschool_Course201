@@ -67,11 +67,7 @@ function constructImages() {
 
     // i want to make an image for every name in the productname array
 
-    let img1 = getRandomImage();
-    let img2 = getRandomImage();
-    while(img1 === img2){
-      img2 = getRandomImage()
-    }
+   
     // add the src attribute to the images
 
     img_one.setAttribute('src', './assets/'+ productNames[img1] +'.jpg');
@@ -93,6 +89,11 @@ function constructImages() {
 // make a function to randomly display images
 function displayRandomImage() {
     // this function needs to call the randomizer algorithm
+    let img1 = getRandomImage();
+    let img2 = getRandomImage();
+    while(img1 === img2){
+      img2 = getRandomImage()
+    }
 }
 
 
