@@ -10,15 +10,6 @@
 // Randc
 
 
-
-
-
-
-
-
-
-
-
 // this array is going to hold all of our product objects
 let allProducts = [];
 
@@ -26,7 +17,7 @@ let maxClicks = 25;
 let totalClicks = 0
 
 // this array is going to hold all our product names
-let productNames = ['bag', 'banana', 'bathroom', 'boots'];
+let productNames = ['bag', 'banana', 'bathroom', 'boots','chair','pen','pet-sweep','scissors'];
 
 // Create a constructor function
 // that creates an object associated with each product, and has the following properties:
@@ -76,13 +67,17 @@ function constructImages() {
 
     // i want to make an image for every name in the productname array
 
-
-
+    let img1 = getRandomImage();
+    let img2 = getRandomImage();
+    while(img1 === img2){
+      img2 = getRandomImage()
+    }
     // add the src attribute to the images
-    img_one.setAttribute('src', bag.path);
-    img_two.setAttribute('src', banana.path);
-    img_one.setAttribute('alt', bag.name);
-    img_two.setAttribute('alt', banana.name);
+
+    img_one.setAttribute('src', './assets/'+ productNames[img1] +'.jpg');
+    img_two.setAttribute('src', './assets/'+ productNames[img2] +'.jpg');
+    img_one.setAttribute('alt', img1);
+    img_two.setAttribute('alt', img2);
 
     img_one.addEventListener('click', function () {
         trackClicks(bag)
