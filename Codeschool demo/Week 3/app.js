@@ -69,7 +69,6 @@ function constructImages() {
     // call the random function to get a random index number;
     // store the return value
     let img1 = getRandomImage(); // returns a random index number not exceeding the length of the array
-   
     let img2 = getRandomImage();// returns a random index number not exceeding the length of the array
     
     while(img1 === img2){
@@ -100,12 +99,6 @@ function constructImages() {
     
 }
 
-// make a function to randomly display images
-function displayRandomImage() {
-    // this function needs to call the randomizer algorithm
-  
-    
-}
 
 
 
